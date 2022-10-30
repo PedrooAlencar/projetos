@@ -13,6 +13,16 @@
 header{
     margin: auto;
 }
+#logo{
+    margin-top: 5px;
+}
+.fundo{
+    margin: auto;
+    margin-bottom: 10px;
+    background-image: url(imagens/fundo-brigs.png);
+    background-position: center center;
+    height: 300px;
+}
 body{
     text-align: center;
     background:white url(imagens/fundo.png) center center no-repeat fixed;
@@ -75,12 +85,15 @@ p {
     color: #260B01;
 }
 h1{
-    padding: 2px;
+    font: normal 25pt Arial;
     margin: auto;
-    background-color: #74351e;
-    color: #F2A594;
-    border-radius: 5px;
-    max-width: 1200px;
+    padding: 5px;
+    padding-left: 15px;
+    text-align: justify;
+    background-color: #260B01;
+    color: #c07263;
+    border-radius: 15px 0px;
+    max-width: 1100px;
 }
 h2{
     color: #260B01;
@@ -130,12 +143,78 @@ ul{
     line-height: 2em;
     font-size: 18px;
 }
-#img01{
+#img01{/* Sabor Brigadeiro*/
     width: 240px;
     height: 280px;
     border-radius: 10px;
     margin-top: 10px ;
     background-image: url(imagens/imagem-grande/brig1.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img02{/* Sabor Beijinho*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/bei.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img03{/* Sabor Maracujá*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/mara.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img04{/* Sabor Paçoca*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/paco.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img05{ /* Sabor Ninho c/ Nutella*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/nin.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img06{/* Sabor M&M's*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/mm.png);
+    background-position: center center;
+    background-size: cover;
+    display: inline-block;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+#img07{ /* Sabor Oreo*/
+    width: 240px;
+    height: 280px;
+    border-radius: 10px;
+    margin-top: 10px ;
+    background-image: url(imagens/imagem-grande/oreo.png);
     background-position: center center;
     background-size: cover;
     display: inline-block;
@@ -170,6 +249,13 @@ p.quero{
 p.sabor{
     margin-top: 140px;
     font-size: 20px;
+    text-align: justify;
+    color: #F5C856;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
+}
+p.sabormaior{ /* Titulo maior para ninho c/ nutella*/
+    margin-top: 140px;
+    font-size: 15px;
     text-align: justify;
     color: #F5C856;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.705);
