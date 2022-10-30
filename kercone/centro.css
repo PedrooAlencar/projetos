@@ -16,10 +16,10 @@ header{
 #logo{
     margin-top: 5px;
 }
-.fundo{
+.fundo{ /*Imagem abaixo botão */
     margin: auto;
     margin-bottom: 10px;
-    background-image: url(imagens/fundo-brigs.png);
+    background-image: url(imagens/fundo2.png);
     background-position: center center;
     height: 300px;
 }
