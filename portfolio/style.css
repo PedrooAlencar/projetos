@@ -1,0 +1,34 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#fundo{
+    background-color: #00152f;
+}
+.container{
+    text-align: center;
+}
+#redondo{
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 100%;
+}
+h1{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: rgb(108, 40, 255);
+}
+.fundo-img{
+    background-color:#011b3b; 
+    padding: 10px; 
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+    margin: 10px;
+}
+figure{
+    display: inline-block;
+    
+}
