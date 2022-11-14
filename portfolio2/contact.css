@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #00286d;
+    margin: 0;
+    display: grid;
+    height: 100vh;
+
+    grid-template-areas: /*Coluna 1 2*/
+         /*Linha: 1*/  "header header"     
+         /*Linha: 2*/  "main main";
+                                       /*Tamanho*/
+    grid-template-rows: 50px 1fr; /*Linhas*/
+    grid-template-columns: 1fr 1fr;  /*Colunas*/
+    color: white;
+}
+.logo{
+    font-family: 'Cinzel', serif;
+}
+header{
+    grid-area: header;
+    display: flex;
+    justify-content: space-between; /*Espaço entre os 2*/
+    align-items: center; /*Centraliza a linha*/
+    background-color: #001d4f;
+    align-items: center;
+}
+h1 > a{
+    font-family: 'Cinzel', serif;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+li > .menulink{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+}
+.menulink:hover{
+    background-color: rgba(255, 255, 255, 0.508);
+    padding: 20px 5px 5px 5px;
+    border-radius: 10px;
+    transition-duration: 0.3s;
+}
+.menu > li{
+    display: inline-block;
+    padding-left: 20px;
+    line-height: 25px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: lighter;
+}
+main{          
+    font-size: 20px;
+    margin-left: 50vh;
+    margin-top: 2vh;
+    grid-area: main;
+    position: relative;
+    left: 5vw;
+    font-family: 'Nunito',sans-serif;
+    font-weight: lighter;
+    min-width: 200px;
+    max-width: 500px;
+}
+main > h1{
+    margin-bottom: 20px;
+
+}
+aside{
+    grid-area: aside;
+}
+.perfil{
+    position: relative;
+    left: 7vw;
+    top: 7vh;
+    width: 70%;
+}
+.btnprojetos{
+    margin-top: 20px;
+    padding: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
+}
+.btnprojetos > a{
+    text-decoration: none;
+    color: black;
+}
+.btnprojetos:hover a{
+    color: rgb(146, 146, 146);
+    transition-duration: 0.3s;
+    padding: 8px;
+}
+aside{
+    position: absolute;
+    left: 55vw;
+    top: 22vh;
+}
+figure{
+    display: inline-block;
+    background-color: #013286;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 5px;
+
+}
+figure:hover{
+    background-color: #135edf;
+    transition-duration: 0.5s;
+}
+.caixa{
+    font-size: 20px;
+    padding: 15px;
+    width: 120%;
+    border-radius: 20px;
+}
+.caixa > input{
+    width: 70%;
+    height: 20px;
+    border-radius: 5px;
+}
+legend{
+    font-size: 25px;
+}
+.caixatexto{
+    width: 80px;
+    display: inline-block;
+    
+}
+textarea{
+    width: 100%;
+    height: 100px;
+    border-radius: 10px;
+}
+
+.opcao{
+    text-align: center;
+}
