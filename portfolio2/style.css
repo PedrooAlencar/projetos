@@ -7,18 +7,18 @@
     padding: 0;
 }
 body{
-    background-color: #00286d;
+    background-color: #f1f1f1;
     margin: 0;
     display: grid;
     height: 100vh;
 
     grid-template-areas: /*Coluna 1 2*/
          /*Linha: 1*/  "header header"     
-         /*Linha: 2*/  "main aside";
+         /*Linha: 2*/  "main main";
                                        /*Tamanho*/
     grid-template-rows: 50px 1fr; /*Linhas*/
     grid-template-columns: 1fr 1fr;  /*Colunas*/
-    color: white;
+    color: rgb(0, 0, 0);
 }
 .logo{
     font-family: 'Cinzel', serif;
@@ -28,21 +28,21 @@ header{
     display: flex;
     justify-content: space-between; /*Espaço entre os 2*/
     align-items: center; /*Centraliza a linha*/
-    background-color: #001d4f;
-    align-items: center;
+    background-color: #e1e0e0;
 }
 h1 > a{
     font-family: 'Cinzel', serif;
     text-decoration: none;
     padding: 8px;
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     letter-spacing: 4px;
 }
 li > .menulink{
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    font-size: 17px;
+    color: rgb(67, 67, 67);
+    font-size: 16px;
+    
 }
 .menulink:hover{
     background-color: rgba(255, 255, 255, 0.508);
@@ -50,37 +50,30 @@ li > .menulink{
     border-radius: 10px;
     transition-duration: 0.3s;
 }
+.menu{
+    margin-right: 1vw;
+}
 .menu > li{
     display: inline-block;
-    padding-left: 20px;
+    padding-left: 12px;
     line-height: 25px;
     font-family: 'Nunito',sans-serif;
     font-weight: lighter;
 }
-main{          
+main{
+    position: absolute;         
     font-size: 20px;
     margin-left: 8vh;
     margin-top: 30vh;
     grid-area: main;
-    position: relative;
     left: 5vw;
     font-family: 'Nunito',sans-serif;
     font-weight: lighter;
-    min-width: 200px;
-    max-width: 500px;
+    width: 50%;
 }
 main > h1{
+    width: 100%;
     margin-bottom: 20px;
-
-}
-aside{
-    grid-area: aside;
-}
-.perfil{
-    position: relative;
-    left: 7vw;
-    top: 7vh;
-    width: 70%;
 }
 .btnprojetos{
     margin-top: 20px;
@@ -96,20 +89,56 @@ aside{
     transition-duration: 0.3s;
     padding: 8px;
 }
-aside{
+.foto{
     position: absolute;
     left: 55vw;
-    top: 22vh;
+    top: -10vh;
 }
+
 figure{
+    position: relative;
+    left: 60vw;
+    top: 25vh;
     display: inline-block;
-    background-color: #013286;
+    background-color: #888888;
     border-radius: 10px;
     padding: 5px;
     margin: 5px;
-
 }
 figure:hover{
-    background-color: #135edf;
+    background-color: #3e3e3e;
     transition-duration: 0.5s;
+}
+div#dados{
+    width: 50%;
+    position: absolute;
+    top: 15vh;
+    left: 20vw;
+}
+.caixa{
+    font-size: 20px;
+    padding: 15px;
+    width: 120%;
+    border-radius: 20px;
+}
+.caixa > input{
+    width: 70%;
+    height: 20px;
+}
+legend{
+    font-family: 'Nunito',sans-serif;
+    font-size: 25px;
+}
+.caixatexto{
+    width: 80px;
+    display: inline-block;
+    
+}
+textarea{
+    width: 100%;
+    height: 100px;
+}
+
+.opcao{
+    text-align: center;
 }
