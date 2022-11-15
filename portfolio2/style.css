@@ -70,6 +70,7 @@ main{
     font-family: 'Nunito',sans-serif;
     font-weight: lighter;
     width: 50%;
+    text-align: justify;
 }
 main > h1{
     width: 100%;
@@ -90,11 +91,17 @@ main > h1{
     padding: 8px;
 }
 .foto{
+    width: 50%;
     position: absolute;
     left: 55vw;
     top: -10vh;
 }
-
+.foto2{
+    width: 100%;
+    position: absolute;
+    left: -1vw;
+    top: 8vh;
+}
 figure{
     position: relative;
     left: 60vw;
