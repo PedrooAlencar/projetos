@@ -63,7 +63,7 @@ li > .menulink{
 main{
     position: absolute;         
     font-size: 20px;
-    margin-left: 8vh;
+    margin-left: 2vh;
     margin-top: 30vh;
     grid-area: main;
     left: 5vw;
@@ -93,7 +93,7 @@ main > h1{
 .foto{
     width: 50%;
     position: absolute;
-    left: 55vw;
+    left: 60vw;
     top: -10vh;
 }
 .foto2{
