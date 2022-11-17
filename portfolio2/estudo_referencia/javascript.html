@@ -1,0 +1,61 @@
+<script>
+    var clima ="Quente" //let tem a mesma função / const só recebe um valor, que não pode ser alterado
+    clima = "Frio"
+    console.log(clima)
+    console.log(typeof clima) //typeof mostra qual o tipo da variável
+
+    //VAR
+    console.log('> existe x antes do bloco?', x)
+    /*
+    O var é global, ou seja, o console acima está lendo o var abaixo, porém não da valor a ele, entendendo dessa forma:
+    var x
+    console.log('> existe x antes do bloco?', x)   -> ENTÃO ELE SABE QUE O VAR EXISTE, PORÉM NÃO ATRIBUI VALOR.
+    x = 0  */
+    {
+        var x = 0
+    }
+
+    console.log('> existe x antes do bloco?', x)
+
+    //LET E CONST
+    //let é const só funcionam localmente
+    {
+        let y = 1
+        console.log('> existe y antes do bloco?', y)
+    }
+
+    //DECLARANDO VARIÁVEIS
+    let name = 'Pedro'
+    let age = 23
+    let tall = 1.78
+    //Concatenando valores
+    console.log('My name is ' + name + ', I am ' + age + ' years old and ' + tall + ' tall')
+
+    //Interpolando valores
+    console.log(`My name is ${name}, I'm ${age} years old and ${tall} tall`)
+
+    //OBJETO - exemplo: let student = {}   -> é um objeto
+    const person = { //Posso criar diversas variáveis e puxá-las depois com o nome da const e o que tiver dentro
+        nameConst: 'Larissa',
+        age: 23,
+        tall: 1.78,
+        isAdmin: true
+    }
+    console.log(person.nameConst) //Outros exemplos, person.age, person.tall, person.isAdmin, ou somente person
+    console.log(`${person.nameConst} tem ${person.age} anos`)
+   
+
+
+    //ARRAYS - exemplo: let student = []  -> é uma array
+    const animals = [
+        'lion', // = 0
+        'monkey', // = 1
+        'elefant', // = 2
+        { // = 3 / porém é um OBJETO, para consultar é necessario colcoar animals[3].nameCat
+            nameCat: 'cat',
+            ageCat: 3
+        }
+    ]
+    console.log(animals[3].nameCat) //para acessar a array, é necessário usar os números,inciando do 0
+
+</script>

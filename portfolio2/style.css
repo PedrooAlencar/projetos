@@ -78,17 +78,34 @@ main > h1{
 }
 .btnprojetos{
     margin-top: 20px;
-    padding: 8px;
+    padding: 14px 32px;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.486);
-}
-.btnprojetos > a{
-    text-decoration: none;
+    background: transparent;
     color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 2px solid black;
+    border-radius: 32px;
+    transform: translate(0);
+    overflow: hidden;
+    cursor: pointer;
 }
-.btnprojetos:hover a{
-    color: rgb(146, 146, 146);
-    transition-duration: 0.3s;
-    padding: 8px;
+.btnprojetos::before {
+    content: "";
+    position: absolute;
+    background: rgb(85, 85, 85);
+    width: 8px;
+    top: 0;
+    bottom: 0;
+    left: -32px;
+    transform: rotate(-16deg);
+    filter: blur(8px);
+
+}
+.btnprojetos:hover::before{
+    left: calc(100% + 32px);
+    transition: 0.4s;
+
 }
 .foto{
     width: 50%;
