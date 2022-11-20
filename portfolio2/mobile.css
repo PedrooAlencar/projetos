@@ -53,11 +53,11 @@
         width: 37%;
         position: absolute;
         left: 30vw;
-        top: -40vh;
+        top: -230px;
     }
     main{
         position: absolute;  
-        top: 50vh;       
+        top: 300px;       
         font-size: 20px;
         margin: 15px;
         font-family: 'Nunito',sans-serif;
