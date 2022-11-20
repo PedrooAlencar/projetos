@@ -41,3 +41,17 @@ function createThink(subject){ //Se tirar o parâmetro, ele se iguala ao valor d
 
 console.log(createThink(subject))
 console.log(subject)
+
+
+//Método construtor
+
+function Person(name) {
+    this.name = name
+    this.run = function() {
+        return this.name + " está correndo" //concatenando nome com function
+    }
+}
+const pedro = new Person("Pedro") //Instância do objeto
+const joao = new Person("João")
+console.log(pedro.run())
+console.log(joao.run())
