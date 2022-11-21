@@ -44,13 +44,12 @@ li > a{
     text-decoration: none;
     color: rgb(67, 67, 67);
     font-size: 16px;
-   
 }
 a:hover{
-    background-color: rgba(184, 184, 184, 0.508);
+
     padding: 10px;
     border-radius: 10px;
-    transition-duration: 0.3s;
+    transition-duration: 0.5s;
 }
 main{
     grid-area: main;
@@ -72,35 +71,81 @@ div.container{
     position: relative;
     text-align: center;
     top: -100px;
-    
 }
-div.coracao{
-    display: inline-block;
-    width: 270px;
-    height: 230px;
-    background-color: rgba(208, 208, 208, 0.883);
+.container > a{
+    color: black;
 }
-div.neuro{
-    margin-left: -6px;
-    padding: -10%;
-    display: inline-block;
-    width: 270px;
-    height: 230px;
-    background-color:rgba(234, 234, 234, 0.875);
-   
+.container > a {
+    margin: 10px;
 }
-div.coracao1{
-    margin-left: -6px;
-    display: inline-block;
-    width: 270px;
-    height: 230px;
-    background-color:rgba(208, 208, 208, 0.883);
-}
-div.neuro1{
-    margin-left: -6px;
-    display: inline-block;
-    width: 270px;
-    height: 230px;
-    background-color: rgba(234, 234, 234, 0.875);
+div > p{
+    margin: 10px;
 }
 
+div.cardiologia{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.316);
+    display: inline-block;
+    min-width: 200px;
+    max-width: 20%;
+    height: 230px;
+    background-color: rgba(208, 208, 208, 0.883);
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+div.neurologia{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.316);
+    margin-left: -6px;
+    margin-bottom: 10px;
+    padding: -10%;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 20%;
+    height: 230px;
+    background-color:rgba(234, 234, 234, 0.875);
+    padding-top: 10px;
+}
+div.fisioterapia{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.316);
+    margin-left: -6px;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 20%;
+    height: 230px;
+    background-color:rgba(208, 208, 208, 0.883);
+    padding-top: 10px;
+}
+div.pilates{
+    border-radius: 30px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.316);
+    margin-left: -6px;
+    display: inline-block;
+    min-width: 200px;
+    max-width: 20%;
+    height: 230px;
+    background-color: rgba(234, 234, 234, 0.875);
+    padding-top: 10px;
+}
+
+
+.containermenor{
+    margin: -50px 0px 50px 130px;
+    display: inline-block;
+}
+.quadrado{
+    background-color: rgba(208, 208, 208, 0.883);
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+}
+p{
+    font-size: 16px;
+    width: 350px;
+    display: inline-block;
+    text-align: justify;
+}
+.informacoes{
+    width: 75%;
+}
