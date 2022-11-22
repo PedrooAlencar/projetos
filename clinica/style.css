@@ -77,9 +77,11 @@ div.container{
 }
 .container > a {
     margin: 10px;
+    
 }
 div > p{
     margin: 10px;
+    
 }
 
 div.cardiologia{
@@ -88,7 +90,7 @@ div.cardiologia{
     display: inline-block;
     min-width: 200px;
     max-width: 20%;
-    height: 230px;
+    height: 220px;
     background-color: rgba(208, 208, 208, 0.883);
     margin-bottom: 10px;
     padding-top: 10px;
@@ -102,7 +104,7 @@ div.neurologia{
     display: inline-block;
     min-width: 200px;
     max-width: 20%;
-    height: 230px;
+    height: 220px;
     background-color:rgba(234, 234, 234, 0.875);
     padding-top: 10px;
 }
@@ -113,7 +115,7 @@ div.fisioterapia{
     display: inline-block;
     min-width: 200px;
     max-width: 20%;
-    height: 230px;
+    height: 220px;
     background-color:rgba(208, 208, 208, 0.883);
     padding-top: 10px;
 }
@@ -124,7 +126,7 @@ div.pilates{
     display: inline-block;
     min-width: 200px;
     max-width: 20%;
-    height: 230px;
+    height: 220px;
     background-color: rgba(234, 234, 234, 0.875);
     padding-top: 10px;
 }
@@ -134,7 +136,7 @@ div.pilates{
     display: inline-block;
 }
 .menor{
-    margin: -70px 0px 50px 130px;
+    margin: -70px 0px 50px 10px;
     display: inline-block;
 }
 .quadrado{
@@ -146,12 +148,10 @@ div.pilates{
 }
 p{
     font-size: 16px;
-    width: 350px;
+    min-width: 200px;
+    max-width: 90%;
     display: inline-block;
     text-align: justify;
-}
-.informacoes{
-    width: 75%;
 }
 #menu-servico{
     text-align: center;
@@ -162,4 +162,7 @@ p{
     line-height: 25px;
     font-family: 'Nunito',sans-serif;
     font-weight: lighter;
+}
+.imgdentro{
+    width: 100px;
 }
