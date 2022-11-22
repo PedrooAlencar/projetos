@@ -13,12 +13,15 @@ body{
          /*Linha: 1*/  "header header"     
          /*Linha: 2*/  "main main";
                                        /*Tamanho*/
-    grid-template-rows: 70px 1fr; /*Linhas*/
+    grid-template-rows: 50px 1fr; /*Linhas*/
     grid-template-columns: 1fr 1fr;  /*Colunas*/
     color: rgb(0, 0, 0);
+    background-image: url(imagens/editada.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 header{
-    background-color: rgba(234, 234, 234, 0.993);
+    background-color: white;
     grid-area: header;
     display: flex;
     justify-content: space-between;
@@ -47,7 +50,6 @@ li > a{
     font-size: 16px;
 }
 a:hover{
-
     padding: 10px;
     border-radius: 10px;
     transition-duration: 0.3s;
@@ -55,26 +57,43 @@ a:hover{
 main{
     margin: 50px auto;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 0px 70px;
     width: 75%;
     grid-area: main;
     font-size: 20px;
     font-family: 'Nunito',sans-serif;
     font-weight: lighter;
+    background-color: white;
 }
 h2, p{
     margin: 20px;
     text-align: justify;
 }
 .divisao{
-    background-color: rgb(79, 79, 79);
+    background-color: rgb(93, 93, 93);
     width: 100%;
     height: 60px;
-    border-radius: 10px 10px 0px 0px;
+ 
 }
 .divisao > h1{
     padding: 8px;
     color: white;
-    margin: -24px 20px;
+    margin: -23px 20px;
+    text-align: center;
+}
+#menu-servico{
+    text-align: center;
 
+}
+#menu-servico > li{
+    display: inline-block;
+    margin-left: 18px;
+    padding: 3px 10px 3px 10px;
+    line-height: 25px;
+    font-family: 'Nunito',sans-serif;
+    font-weight: lighter;
+    border-radius: 50px;
+    background-color: rgb(238, 238, 238);
+    width: 100px;
+    
 }
