@@ -31,7 +31,13 @@ header{
     margin-left: 15px;
     padding: 5px 10px 5px 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    
+}
+.logo1{
+    text-decoration: none;
+    color: black;
+}
+.logo1:hover{
+    padding: 0;
 }
 #menu{
     padding-right: 20px;
@@ -75,7 +81,7 @@ section{
     font-weight: lighter;
     width: 100px;
     border-radius: 30px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.149);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.081);
 }
 
 #menu-servico2{
