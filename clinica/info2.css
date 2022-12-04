@@ -11,11 +11,10 @@ body{
     height: 100vh;
 
     grid-template-areas: /*Coluna 1 2*/
-         /*Linha: 1*/  "header header"
-                        "section section"     
+         /*Linha: 1*/  "header header"    
          /*Linha: 2*/  "main main";
                                        /*Tamanho*/
-    grid-template-rows: 50px 165px 1fr; /*Linhas*/
+    grid-template-rows: 50px 1fr; /*Linhas*/
     grid-template-columns: 1fr 1fr;  /*Colunas*/
     color: rgb(0, 0, 0);
     font-family: 'Quicksand', sans-serif;
